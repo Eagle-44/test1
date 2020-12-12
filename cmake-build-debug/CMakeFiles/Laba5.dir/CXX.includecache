@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Labu/Laba5/Medicine.h
+string
+-
+
+D:/Labu/Laba5/Pharmacy.h
+Medicine.h
+D:/Labu/Laba5/Medicine.h
+
+D:/Labu/Laba5/main.cpp
+iostream
+-
+Pharmacy.h
+D:/Labu/Laba5/Pharmacy.h
+
