@@ -37,6 +37,10 @@ void Medicine::setPrice(double price){
     this->price = price;
 }
 
+
+
+
+
 void Medicine::printInfo(){
     std::cout<<"Quantity: "<< quantity <<std::endl;
     std::cout<<"Name: "<< name <<std::endl;
